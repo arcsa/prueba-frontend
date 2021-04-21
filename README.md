@@ -36,7 +36,7 @@ Puntos a evaluar:
 
 Sube tu proyecto a Github, Gitlab o el servicio que desees, y despliega tu proyecto con algún servicio gratuito como Netlify, Heroku, Now o Github Pages.
 
-La prueba será revisada por uno de nuestros miembros del equipo de ingeniería. Se revisará la calidad del código fuente tanto su funcionalidad en el ambiente de despliegue.
+La prueba será revisada por uno de nuestros miembros del equipo de ingeniería. Se revisará la calidad del código fuente tanto su funcionalidad en el ambiente de despliegue en una llamada con algun miembro del equipo mencionado.
 
 ### Plus
 

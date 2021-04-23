@@ -14,8 +14,6 @@ La aplicación deberá de contar con rutas, los contenedores que reciben informa
 
 Los resultados de la REST API deberán ser manejados con RXJS para poder transformar la data.
 
-Si es posible un Plus será la implementación de Angular Universal para hacer SSR (Server Side Rendering) con Angular.
-
 ## Revisión
 
 **Todas las imágenes, iconos y recursos que utilices deben ser libres, open source o con licencia CC.**
@@ -46,6 +44,8 @@ La prueba será revisada por uno de nuestros miembros del equipo de ingeniería.
 - Uso de genéricos de Typescript para promesas y observables.
 - PWA 📱
 - Animaciones
+- Implementación de Angular Universal para hacer SSR (Server Side Rendering) con Angular.
+- Implementacion de meta tags para SEO.
 - Si te quieres lucir 👍
 
 ## Entrega

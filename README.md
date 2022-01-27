@@ -6,17 +6,11 @@ Esta prueba está diseñada para que te diviertas construyendo un prototipo y po
 
 Crear una aplicación web en Angular -en su versión más reciente- para crear un Pokédex utilizando la [API de PokéAPI](https://pokeapi.co).
 
-Tu aplicación deberá permitir guardar como favoritos a los Pokémon, mostrar todas las imágenes disponibles como galería y manejar los posibles errores.
+Tu aplicación deberá permitir guardar como favoritos a los Pokémon, haz uso de diferentes rutas, ya que deberas mostrar a todos los pokemones de la pokedex y asignar una interfaz para mostrar los detalles del pokemon seleccionado, puedes hacer uso de un paginado o con scroll inteligente para limitar la cantidad de pokemones mostrados en la vista, tambien implementar una forma de buscar pokemones por su nombre, puedes hacer uso de mas interfaces si lo deseas, eso sumara puntos, y recuerda manejar los posibles errores.
 
-El código de CSS deberá ser escrito por un preprocesador de CSS como SASS o SCSS. No se permite el uso de frameworks como bootstrap, bulma o similares.
-
-La aplicación deberá de contar con rutas, los contenedores que reciben información acerca del pokemón deberán ser componentes que reciben una interfaz con los datos del Pokémon, los botones deberán recibir el texto a través del componente padre.
+El estilado de la aplicación puede ser hecho con css puro o preprocesadores como SASS o SCSS, o de preferencia con el uso del framework tailwind.
 
 Los resultados de la REST API deberán ser manejados con RXJS para poder transformar la data.
-
-## Revisión
-
-**Todas las imágenes, iconos y recursos que utilices deben ser libres, open source o con licencia CC.**
 
 ### README
 
@@ -28,13 +22,13 @@ Puntos a evaluar:
 - UI/UX: Tu aplicación web tiene que ser amigable y fácil de utilizar
 - Versionamiento: Commits claros y descriptivos. Preferible tener varios commits para ver tu avance que un commit único.
 - Calidad y claridad de tu código: Escribe tu código como si fuera a producción y tuvieras que colaborar con un equipo.
-- Performance, accesibilidad, mejores prácticas y SEO.
+- Performance, accesibilidad y mejores prácticas.
 
 ### Proceso de revisión
 
-Sube tu proyecto a Github, Gitlab o el servicio que desees, y despliega tu proyecto con algún servicio gratuito como Netlify, Heroku, Now o Github Pages.
+Sube tu proyecto a un repositorio de Github público, y si lo deseas despliega tu proyecto con algún servicio gratuito como Netlify, Heroku, Now o Github Pages, esto último es opcional.
 
-La prueba será revisada por uno de nuestros miembros del equipo de ingeniería. Se revisará la calidad del código fuente tanto su funcionalidad en el ambiente de despliegue en una llamada con algun miembro del equipo mencionado.
+La prueba será revisada por uno de nuestros miembros del equipo de ingeniería.
 
 ### Plus
 
@@ -45,11 +39,11 @@ La prueba será revisada por uno de nuestros miembros del equipo de ingeniería.
 - PWA 📱
 - Animaciones
 - Implementación de Angular Universal para hacer SSR (Server Side Rendering) con Angular.
-- Implementacion de meta tags para SEO.
+- Uso de Tailwind
 - Si te quieres lucir 👍
 
 ## Entrega
 
-Envía los enlaces del repositorio y de tu prueba, junto a tu CV y una carta de presentación a [jobs@arcsa.com.mx](mailto:jobs@arcsa.com.mx). Como asunto de correo indica la vacante para la cual estás aplicando. Asegúrate de incluir en tu correo cómo encontraste la vacante 💻
+Envía el enlace del repositorio, y en caso de haberlo desplegado tambien envia la liga del sitio a [recursos.humanos@arcsa.com.mx](mailto:recursos.humanos@arcsa.com.mx) y [hugo.gonzalez@arcsa.com.mx](mailto:hugo.gonzalez@arcsa.com.mx), indicando que terminaste la prueba, como asunto pon 'Prueba Front-end Angular'.
 
 Mucho éxito 😁
